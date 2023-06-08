@@ -26,8 +26,13 @@
                 "${workspaceFolder}/main/view",
                 "${workspaceFolder}/main/model",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/components/bsp/include"
-
+                "${workspaceFolder}/components/bsp/include",
+                "${workspaceFolder}/components/wsiotsdk/application/devnet",
+                "${workspaceFolder}/components/wsiotsdk/application/devnet/base64",
+                "${workspaceFolder}/components/wsiotsdk/application/devnet/CJSON",
+                "${workspaceFolder}/components/wsiotsdk/application/devnet/keccak256",
+                "${workspaceFolder}/components/wsiotsdk/application/devnet/ProtoBuf",
+                "${workspaceFolder}/components/wsiotsdk/crypto"
             ],
             "browse": {
                 "path": [
@@ -54,7 +59,13 @@
                     "${workspaceFolder}/main/model",
                     "${workspaceFolder}/main/controller",
                     "${workspaceFolder}/main",
-                    "${workspaceFolder}/components/bsp/include"
+                    "${workspaceFolder}/components/bsp/include",
+                    "${workspaceFolder}/components/wsiotsdk/application/devnet",
+                    "${workspaceFolder}/components/wsiotsdk/application/devnet/base64",
+                    "${workspaceFolder}/components/wsiotsdk/application/devnet/CJSON",
+                    "${workspaceFolder}/components/wsiotsdk/application/devnet/keccak256",
+                    "${workspaceFolder}/components/wsiotsdk/application/devnet/ProtoBuf",
+                    "${workspaceFolder}/components/wsiotsdk/crypto"
                 ],
                 "limitSymbolsToIncludedHeaders": false
             }
