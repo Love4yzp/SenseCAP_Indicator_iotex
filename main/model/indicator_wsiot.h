@@ -8,10 +8,7 @@
 #include "freertos/semphr.h"
 #include "freertos/queue.h"
 
-#include "mqtt_client.h"
-#include "wsiotsdk.h"
-
-#include "ProtoBuf/user_data.pb.h"
+#include "iotex_dev_access.h"
 
 #ifdef __cplusplus
 extern "C" {

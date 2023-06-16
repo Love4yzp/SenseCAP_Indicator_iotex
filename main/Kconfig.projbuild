@@ -1,0 +1,9 @@
+menu "w3bstream Configuration"
+
+    config w3bToken
+        string "w3bstream Authorized Devices Token"
+        default "copy from Devent"
+        help
+            copy from Devent
+
+endmenu

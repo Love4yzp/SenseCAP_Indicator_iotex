@@ -9,7 +9,7 @@
 int indicator_model_init(void)
 {
     indicator_storage_init();
-    indicator_sensor_init();
+    // indicator_sensor_init();
     indicator_wifi_init();
     indicator_time_init();
     indicator_city_init();
